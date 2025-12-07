@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dining area</title>
+    <style>
+      .FIRST{
+        text-align: center;
+        color: brown;
+        background-color: rgb(16, 53, 122);
+        font-size: xx-large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-radius: 30px;
+      }
+      .slideshow-container {
+          max-width: 100%;
+          position: relative;
+          margin: auto;
+          background-color: rgb(221, 238, 158);
+          height: 500px;
+        }
+     .mySlides {
+          display: none;
+         width: 100%;
+       }
+    .item1{
+          width: 100%;
+          height: 500px;
+      }
+    .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:xx-large;
+  color: rgb(122, 22, 184);
+  font-weight: bold;
+  }
+  .TWO{
+      text-align: center;
+      color: chocolate;
+      font-weight: bold;
+      font-size: x-large;
+    }
+    .T2{
+      TEXT-ALIGN:center;
+      color: rgb(191, 208, 124);
+      font-weight: lighter;
+      }
+    .container1 {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-weight: bold;
+      font-size: x-large;
+      }
+    .container2 {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-weight: bold;
+      font-size: x-large;
+      }
+    iTEM1{
+      max-width: 100%;
+      height: auto;
+      margin-right: 200px; /* Adjust the margin as needed */
+     }
+    .box1{
+      float: left !important ; 
+      width: 49% !important;
+      padding: 3px !important;
+      
+     }
+    .button{
+      color: white;
+      background-color: rgb(236, 134, 51);
+      cursor: pointer;
+    }
+    .pic{
+      float: left;
+    }
+    .pic1:hover {
+      background-color: rgb(218, 231, 231);
+      transition: .4s, background-position 0s;
+    }
+  .pic1{
+    border-radius: 50%;
+   }
+  .pic2{
+  float: left;
+  }
+ .item2{
+  border-radius: 50%;
+  }
+ .item2:hover {
+  background-color:rgb(218, 231, 231) ;
+  transition: .4s, background-position 0s;
+  }
+  .logo {
+        font-size: 50px;
+        font-weight: bold;
+        color: #961d1d;
+      font-family: Colonna MT ;
+    }
+  .nav-links {
+        list-style: none;
+        display: flex;
+	}
+  .nav-links li {
+        margin-right: 20px;
+    }
+    .nav-links a {
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .nav-links a:hover {
+        background-color: rgb(60, 73, 138);
+        border-radius: 4px;
+        color: white;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px auto;
+        padding: 0 20px;  
+    }
+	.food1:hover {
+  background-color: rgb(218, 231, 231);
+  transition: .4s, background-position 0s;
+}
+	.food1{
+  border-radius: 30%;
+}
+</style>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+  	Marriott Hotel
+    </div>
+    <ul class="nav-links">
+        <li><a href="hotel2.html" target="_blank">
+        Home</a>
+        </li>
+        <li><a href="about us pg.html" target="_blank">
+        About</a>
+        </li>
+        <li><a href="gallery1.html" target="_blank">
+        Gallery</a>
+        </li>
+  <li><a href="dinning.html" target="_blank">
+  Dinning</a>
+  </li>
+  <li><a href="wedding.html" target="_blank">
+  Wedding</a>
+  </li>
+  <li><a href="Booking (1) (1) (1).html" target="_blank">
+    Rooms</a>
+    </li>
+    <li><a href="map.html" target="_blank">
+      Map</a>
+      </li>
+        <li><a href="contactus.html" target="_blank">
+        Contact</a>
+        </li>
+    </ul>
+  </nav>
+  
+  <DIV class="FIRST">
+   <marquee direction="left">
+    <H3 style="color: black;"> WELCOME TO DINING</H3>
+   </marquee> 
+  </DIV>
+  <BR>
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="https://cache.marriott.com/marriottassets/marriott/GRRJW/grrjw-bar-0125-hor-feat.jpg" alt="Image 1" class="item1">
+        </div>
+
+        <div class="mySlides">
+            <img src="https://blog.chatrium.com/wp-content/uploads/2016/07/New-RB_1.jpg" alt="Image 2" class="item1">
+        </div>
+        <div class="mySlides">
+            <img src="din02.avif" alt="Image 3" class="item1">
+        </div>
+        <div class="mySlides">
+            <img src="https://www.newotani.co.jp/fileadmin/res/en/tokyo/restaurant/skybar/kv.jpg" alt="Image 4" class="item1">
+        </div>
+        <div class="mySlides">
+            <img src="http://blog.via.com/wp-content/uploads/2017/05/5.jpg" alt="Image 5" class="item1">
+        </div>
+        <div class="mySlides">
+            <img src="https://livingmagazine.net/wp-content/uploads/geraldines-outdoor-bar-and-pool-view-a77c1803.jpg" alt="Image 6" class="item1">
+        </div>
+       
+  <!-- Add more slides as needed -->
+
+    <script>
+        let slideIndex = 0;
+         showSlides();
+
+         function showSlides() {
+         let i;
+         const slides = document.getElementsByClassName("mySlides");
+
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+
+        slideIndex++;
+
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+      }
+
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 2000); // Change slide every 2 seconds
+    }
+  </script>
+  </div>
+  <DIV class="TWO">
+  <h1>UNIQUE DINING</h1>
+  <DIV class="T2"><P >In our bid to deliver authentic, undiluted experiences, we’ve introduced a unique regional home style dining experience. Always prepared with a local touch, the home-style cooking ensures that you maintain good health throughout your stay. And at the same time it gives you the opportunity to dabble in the local delicacies.</P>
+  </DIV>
+ </DIV>
+  <div class="box1">
+    <img src="bombay.avif" style="height: 500px ; width:100% !important;">
+    <br><br><b style="font-size: large;">Bombay Brasserie</b><br><br>
+        <i style="font-size: large;">Crafting more than just a meal, Bombay Brasserie promises an unforgettable journey
+        where luxury, art, and nature intertwine in every thoughtful detail, elevating your
+        dining experience.</i><br><br>
+        <a href="Bombay barrie.html" target="_blank">
+        <button class="button">View Details</button></a>
+  </div>
+
+  <div class="box1">
+    <img src="loya.avif" style="height: 500px ; width:100% !important;">
+     <br><br><b>LOYA</b> <br><br>
+        <i>LOYA is a grand feast, which leads you on an immersive journey across the vivid north.
+           Loya is a confluence of flavour, passion and influence, all culminating
+          exquisitely on your plate.
+        </i><br><br>
+        <a href="Loya Page.html" target="_blank">
+      <button class="button">View Details</button></a><br>
+  </div>
+  <br><br>
+  <br>
+  <marquee onmousedown="this.stop()" scrolldelay="10" scrollamount="20">
+  <p style="font-size: 40px; color: chocolate; text-align: center;">FOOD PLAZA</p></marquee>
+   <br><div class="pic" >
+    <div class="pic1" style="float:left; padding-top: 20px;">
+      <img src="pic1.jpeg" style="width: 400Px; height: 400px;PADDING-LEFT:50PX; padding-right: 30px; border-radius: 50%;">
+    </div>
+    <div class="pic1" style="float:left; padding-top: 20px;">
+      <img src="pic2.jpeg" style="width: 400px; height: 400px; padding-left: 50PX;padding-right: 30px; border-radius: 50%;">
+    </div>
+    <div class="pic1" style="float:left; padding-top: 20px;">
+      <img src="pic3.jpeg" style="width: 400px; height: 400px; padding-left: 50PX; padding-right: 30px; border-radius: 50%;">
+    </div>
+  </div>
+  <div class="pic2">
+    <div class="item2" style="float:left; padding-top: 20px;">
+      <img src="item2.jpg" style="width: 400Px; height: 400px;PADDING-LEFT:50PX; padding-right: 30px; border-radius: 50%;">
+    </div>
+    <div class="item2" style="float:left; padding-top: 20px;">
+      <img src="item3.jpg" style="width: 400px; height: 400px; padding-left: 50PX;padding-right: 30px; border-radius: 50%;">
+    </div>
+    <div class="item2" style="float:left; padding-top: 20px;">
+      <img src="item4.jpg" style="width: 400px; height: 400px; padding-left: 50PX;padding-right: 30px; border-radius: 50%;">
+    </div>
+  </div><br>
+  <br><br><br><br>
+  <marquee onmousedown="this.stop()" scrolldelay="10" scrollamount="20">
+  <p class="food"    style="text-align: center; color: chocolate; font-size: 40px; padding-top: 30px;"> DELIGHTFUL DISHES</p></marquee>
+  <div class="superfood">
+    <div class="food1" style="float:left; padding-top: 20px;">
+      <img src="food1.jpeg" style="width: 400Px; height: 400px;PADDING-LEFT:50PX; padding-right: 30px; border-radius: 30%;">
+    </div>
+    <div class="food1" style="float:left; padding-top: 20px;">
+      <img src="food3.jpeg" style="width: 400px; height: 400px; padding-left: 50PX;padding-right: 30px; border-radius:30%;">
+    </div>
+    <div class="food1" style="float:left; padding-top: 20px;">
+      <img src="food2.jpeg" style="width: 400px; height: 400px; padding-left: 50PX;padding-right: 30px; border-radius: 30%;">
+    </div>
+  </div><br><br>
+  <div style="text-align: center; color: #961d1d; font-size: large; padding-top: 450px;">
+		<p >© 1996 - 2024 Marriott Hotel, Inc. All rights reserved.</p>
+	   </div>
+</body>
+</html>

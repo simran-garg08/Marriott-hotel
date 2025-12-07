@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wdd destination</title>
+    <style>
+        .d1{
+           font-size: 50px;
+           text-align: center;
+          color: lightseagreen;
+          font-weight: 700;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+	.imagefirst {
+        width: 50%;
+        height: 400px;
+        object-fit: cover;
+        opacity: 0;
+        animation: appear 1.5s forwards;
+        float: right; /* Shift image to the right */
+      }
+      .textfirst {
+        position: absolute;
+        top: 0;
+        left: 0; /* Position text on the left side */
+        width: 50%;
+        background-color: rgba(168, 199, 184, 0.5);
+        color: black;
+        padding: 10px;
+        box-sizing: border-box;
+        white-space: pre-line;
+        animation: slideIn 1.5s forwards;
+        opacity: 0;
+        height: 400px;
+      }
+      @keyframes appear {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes slideIn {
+        from {
+          transform: translateX(-100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      .containerfirst {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        margin-bottom: 20px;
+      }
+      .d2{
+        text-align: center;
+        font-size: 40px;
+        color: lightseagreen;
+          font-weight: 700;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .footer {
+      background-color: #f8f9fa;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 16px;
+    }
+    .footer p {
+      margin: 5px 0;
+    }
+    .footer a {
+      color: #333;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+   .ff1{
+    text-align: left;
+    padding-left: 80px;
+    line-height: 1.4;
+    font-size: large;
+    
+
+   }
+   .ff2{
+    text-align: center;
+    padding-left: 80px;
+    line-height: 1.4;
+    font-size: large;
+   }
+   .f1{
+        float: left;
+       padding: 80px;
+       background-color: lightgrey;
+       height: 250px;   
+   }
+   .ff3{
+   font-size: large;
+    padding-left: 50px;
+    line-height: 1.4;
+}
+</style>
+</head>
+<body>   
+    <p class="d1">Wedding & Celebrations</p>
+    <video src="dest2.mp4"  controls style="width: 100%; height: 500px; "></video>
+    <p class="d1">Explore Venues</p>
+    <div class="containerfirst">
+        <img
+          class="imagefirst"
+          src="dest1.jpg"
+          alt="Image"/>
+          <div class="textfirst">
+            <p>
+                The Marriott Palace, Mumbai<br>
+                A stunning heritage palace that overlooks the jewel of Mumbai's skyline - Gateway of India, offers a 			remarkable blend of traditional elegance and modern sophistication. It is the flagship hotel of Marriott 		Hotels,Resort & Palaces and is country’s first harbour landmark. The golden-themed Ballroom with theatre 		style seating can host up to 300 guests while for intimate celebrations you can opt for the rooftop space for 		up to 80 people.
+            </p>
+          </div>
+        </div>
+        <div class="containerfirst">
+            <img
+              class="imagefirst"
+              src="dest2.jpg"
+              alt="Image"/>
+              <div class="textfirst">
+                <p>
+                    Marriott Palace, Delhi<br>
+                    A regal wonder, hidden right in plain sight, amidst boundless greenery and away from the bustling streets 		of New Delhi - Taj Palace, Delhi, is an ideal destination to create and cherish beautiful wedding moments 		with your loved ones. Exchange promises of a lifetime as the skyline of New Delhi unfolds before you, playing 		witness to your divine union.
+                </p>
+              </div>
+        </div>
+        <div class="containerfirst">
+                <img
+                  class="imagefirst"
+                  src="dest3.jpg"
+                  alt="Image"/>
+                <div class="textfirst">
+                    <p>
+                        Marriott Bengal<br>
+                        Nestled in the greenest corner of Kolkata, the Taj Bengal's outstanding views of the sprawling 				cityscape and the Alipore Zoological Gardens make it one of the dreamiest places for a city wedding! 			Lush green banquet lawns hold the capacity of 400 guests while the fine Crystal Room with exquisite 			interiors extend it to 700 – Providing a wide variety for celebration selections. 
+			Art, culture, heritage, and luxury come together in one single masterpiece to bring you picturesque 			moments you will cherish for eternity.
+                    </p>
+                </div>
+         </div>
+         <p class="d2">Iconic City Destinations for a Dream Wedding</p>
+         <footer class="footer">
+             <!-- Footer Content -->
+            <div class="f1">
+                <p class="ff1"><u style="color: red;">Contact</u><br>
+                 <br>+91-965-009-0985<br>
+                shaadi@marriott.com<br>
+                © Marriott 2024.<br>
+                All Rights Reserved.</p>
+            </div>
+            <div class="f1">
+               <p class="ff2"> <u style="color: red;">DESTINATIONS</u><br>
+               <br> Wedding by The Hills<br>
+                Vows on the Beach<br>
+                Dream Wedding in your Beloved City<br>
+                A Royal Affair<br>
+                Vivaah by Sri Lanka</p>
+            </div>
+            <div class="f1">
+                <p class="ff3">
+                <u style="color: red;">MORE</u><br>
+                <br>Contact<br>
+                Terms of Use<br>
+                 Accessiblity<br>
+                ADA Website Conformance<br>
+                Privacy Policy<br>
+                Sitemap<br>
+                Opt-out Icon Your Privacy Choices<br>
+                Tracking Preferences
+                </p>
+            </div>
+        </footer>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+.scrolling-images{
+	width:100%;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+.scrolling-images img{
+	display: inline-block;
+	margin-right:20px;
+	animation:scrollImages 10s linear infinite;
+}
+
+@keyframes scrollImages{
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
